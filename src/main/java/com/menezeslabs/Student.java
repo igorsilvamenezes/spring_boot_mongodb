@@ -8,7 +8,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.math.BigDecimal;
-import java.time.ZonedDateTime;
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Data
@@ -27,5 +27,5 @@ public class Student {
     private Address address;
     private List<String> favouriteSubjects;
     private BigDecimal totalSpendInBooks;
-    private ZonedDateTime created;
+    private LocalDateTime created;
 }
