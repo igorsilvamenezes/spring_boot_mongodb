@@ -1,1 +1,12 @@
+server:
+  port: 8080
 
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: rootuser
+      password: rootpass
+      database: menezeslabs
+      port: 27017
+      host: localhost
